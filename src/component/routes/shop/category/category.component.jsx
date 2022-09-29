@@ -1,6 +1,4 @@
 import {useParams} from 'react-router-dom';
-import { useContext } from 'react';
-import { ProductContext } from '../../../../contexts/products.context';
 
 import './category.styles.scss';
 
