@@ -89,7 +89,7 @@ const SignIn = () => {
                     </div>
                     <div className="buttons">
                         <Button type="submit" label="Sign In" />
-                        <Button buttonType="google" onClick={signInWithGooglePopup} label="SignIn with Google" />
+                        <Button  type="button" buttonType="google" onClick={signInWithGooglePopup} label="SignIn with Google" />
                         {/* <Button buttonType="google" onClick={signInWithGoogleRedirect} label="SignIn with Google Page" /> */}
                     </div>
                 </form>
