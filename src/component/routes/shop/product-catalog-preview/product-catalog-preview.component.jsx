@@ -7,12 +7,12 @@ import './product-catalog-preview.styles.scss';
 
 const ProductCatalogPreview = () => {
     const {products, categories} = useContext(ProductContext);
-    console.log(categories);
+
     return (
         <div className='products-catalog-container'>
         {
             Object.keys(categories).map((category) => {
-                return <ProductCatalog catagoryName={category} products={categories[category]} keys={category} />
+                return <ProductCatalog catagoryName={category} products={categories[category]} productDisplayCount="4" keys={category}/>
             })
         }
         </div>
